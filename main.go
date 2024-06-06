@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/Serhii-DV/status/modules/github"
 
 func main() {
-    fmt.Println("Hello, World!")
+	github.Run()
 }
